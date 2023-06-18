@@ -16,8 +16,8 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
 ```groovy
  private val shihString = ShihString()
  private val arrayList = arrayListOf("String 1 ", "String 2 ", "String 3 ", "String 4 ", "String 5 ") 
-
-@Test
+-------------------------------------------------------------------------------------------------------
+ @Test
     fun testDeleteOneLineFlags() {
         shihString.addAllStringToBuilder(arrayList)
         // --- Flag START_SEARCH ------
@@ -36,7 +36,7 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-
+-------------------------------------------------------------------------------------------------------
  @Test
     fun testDeleteOneLine() {
      shihString.addAllStringToBuilder(arrayList)
@@ -48,8 +48,8 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
       *
       * */
  }
-
-@Test
+-------------------------------------------------------------------------------------------------------
+ @Test
     fun testDeleteOneLineBaze() {
         shihString.addAllStringToBuilder(arrayList)
         do {
@@ -77,7 +77,8 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-@Test
+-------------------------------------------------------------------------------------------------------
+ @Test
     fun testDeleteOneLineFlags() {
         shihString.addAllStringToBuilder(arrayList)
         // --- Flag START_SEARCH ------
@@ -96,7 +97,7 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-
+-------------------------------------------------------------------------------------------------------
  @Test
     fun testUpdateStringToBuilder() {
 

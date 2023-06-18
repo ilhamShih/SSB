@@ -14,6 +14,9 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
 [![](https://jitpack.io/v/ilhamShih/SSB.svg)](https://jitpack.io/#ilhamShih/SSB)
 ## Testings
 ```groovy
+ private val shihString = ShihString()
+ private val arrayList = arrayListOf("String 1 ", "String 2 ", "String 3 ", "String 4 ", "String 5 ") 
+
 @Test
     fun testDeleteOneLineFlags() {
         shihString.addAllStringToBuilder(arrayList)
@@ -33,21 +36,19 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-```
-```groovy
+
  @Test
     fun testDeleteOneLine() {
-        shihString.addAllStringToBuilder(arrayList)
-        println(shihString.deleteOneLine("String 4 ", Flag.END_SEARCH).toString())
+     shihString.addAllStringToBuilder(arrayList)
+     println(shihString.deleteOneLine("String 4 ", Flag.END_SEARCH).toString())
 
-        /** Result ---> delete (String 4 )
-         *
-         *  String 1 String 2 String 3 String 5
-         *
-         * */
-    }
-```
-```groovy
+     /** Result ---> delete (String 4 )
+      *
+      *  String 1 String 2 String 3 String 5
+      *
+      * */
+ }
+
 @Test
     fun testDeleteOneLineBaze() {
         shihString.addAllStringToBuilder(arrayList)
@@ -76,8 +77,6 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-```
-```groovy
 @Test
     fun testDeleteOneLineFlags() {
         shihString.addAllStringToBuilder(arrayList)
@@ -97,8 +96,7 @@ implementation 'com.github.ilhamShih:SSB:0.1.0'
          *
          * */
     }
-```
-```groovy
+
  @Test
     fun testUpdateStringToBuilder() {
 

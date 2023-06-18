@@ -8,7 +8,7 @@ allprojects {
 }
 
 dependencies {
-implementation 'com.github.ilhamShih:SSB:1.0'
+implementation 'com.github.ilhamShih:SSB:0.1.0'
 }
 ```
 [![](https://jitpack.io/v/ilhamShih/SSB.svg)](https://jitpack.io/#ilhamShih/SSB)

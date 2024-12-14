@@ -1,11 +1,11 @@
 package com.ssb
 
 import com.ssb.mvp.Flag
-import com.ssb.mvp.presenter.ShihString
+import com.ssb.mvp.presenter.StringStringBuilder
 import org.junit.Test
 
 class ExampleUnitTest {
-    private val shihString = ShihString()
+    private val shihString = StringStringBuilder()
     private val arrayList =
         arrayListOf("String 1 ", "String 2 ", "String 3 ", "String 4 ", "String 5 ")
 
